@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+
+    <canvas width="600px" height="400px" id="tela">
+        
+    </canvas>
+
+    <script>
+        var tela = document.getElementById("tela")
+        var pincel = tela.getContext("2d")
+        
+        pincel.fillStyle = "red"       //CORES PRIMEIRO
+        pincel.fillRect(0,0,600,500)    //SEMPRE RESPEITAR LIMITES DE TAMANHO   
+
+        pincel.fillStyle = 'lightgrey'
+        pincel.fillRect(0,0, 400, 400)
+
+        pincel.fillStyle = 'green'
+        pincel.fillRect(0,0, 200,400 )
+
+        pincel.fillStyle = 'black';
+        pincel.beginPath();         //INICIAR NOVO DESENHO
+        pincel.moveTo(300, 150);    //MOVER ATÉ
+        pincel.lineTo(200, 400);    //LINHA ATÉ
+        pincel.lineTo(400, 400);
+        pincel.fill();              //IMPRIMIR DESENHO
+
+        pincel.fillStyle = 'yellow'
+        pincel.beginPath();
+        pincel.arc(300,200,50,0,2*3.14) //FAZER CIRCULOS 50% = RAIO, 0 = ANGULO INICIAL, 2*3,14 = ANGULO EM RADIANOS
+        pincel.fill();
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador - Anderson</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Decoder ONE</h1>
+        </header>
+    </div>
+    <div class="caixatxt"> 
+        <textarea id="txtAreaRecebe" name="txtarea" rows="13" cols="50" required wrap="hard" placeholder="Digite seu texto aqui">
+        </textarea>
+        <br>
+        <input type ="button" value="Criptografar" id="bCrip" onclick="criptografar()">
+
+        <input type="button" value="Descriptografar" id="bDescrip" onclick="descriptografar()">
+    </div>
+    <div class="caixatxt2">
+        <figure>
+            <img src="imagens/chavekey1.jpg" alt="">
+        </figure>
+        <textarea id="txtAreaDevolve" name="txtarea" rows="13" cols="50" readonly>
+        </textarea>
+        <br>
+        <input type="button" value="Copiar" id="bCopiar" onclick="copiartxt()">
+    </div>
+    
+    <footer>
+        <p><strong>Desenvolvido por Anderson Silva - Programa ONE</strong></p>
+
+        <a href="https://github.com/Anderson-ds10" target="_blank">
+            <img src="imagens/github2.png" alt="imagem.png">
+        </a>
+        <a href="www.linkedin.com/in/anderson-silva-dev" target="_blank">
+            <img src="imagens/linkedin2.png" alt="imagem.png">
+        </a>
+    </footer>
+    <script src="funcao.js"></script>
+    
+    
+</body>
+</html>

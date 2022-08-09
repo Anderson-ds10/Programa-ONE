@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.principal{
+    background-color: lightgray;
+    padding: 30px;
+}
+img{
+    width: 100%;
+}
+h1{
+    padding: 20px;
+}
+p{
+    text-align: center;
+}
+.missao{
+    font-size: 20px;
+}
+em > strong {
+    color: red;
+}
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+h2, h3{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+li {
+    font-style: italic;
+}
+.imagembeneficios{
+    width: 50%;
+}

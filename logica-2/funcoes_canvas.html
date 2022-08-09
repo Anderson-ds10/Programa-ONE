@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funções</title>
+</head>
+<body>
+    <canvas width="600px" height="400px" id="tela"></canvas>
+
+    <script>
+        function desenharQuadrados(x, y, cor){
+        var tela = document.getElementById("tela")
+        var pincel = tela.getContext("2d")
+
+        pincel.fillStyle = cor
+        pincel.fillRect(x, y, 50, 50)
+        pincel.fillStroke = "black"
+        pincel.strokeRect(x, y, 50, 50)
+
+        }
+        // desenharQuadrados(0, 50, "blue");
+        // desenharQuadrados(0, 100, "lightgrey");
+        // desenharQuadrados(0, 150, "red");
+        
+        /*var x = 0;
+        while(x < 600){
+            desenharQuadrados(x, 50, "blue");
+            desenharQuadrados(x, 100, "lightgrey");
+            desenharQuadrados(x, 150, "red");
+            x = x + 50;
+        }*/
+
+        for(var x = 0; x < 600; x = x + 50){
+            desenharQuadrados(x, 50, "blue");
+            desenharQuadrados(x, 100, "lightgrey")
+            desenharQuadrados(x, 150, "red")
+        }
+
+
+    </script>
+</body>
+</html>

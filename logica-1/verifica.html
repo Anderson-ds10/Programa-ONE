@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando segredos</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 50vh;
+        }
+        #numero, #buttom{
+            padding: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Tente acertar o numero em segredo</h1>
+    <input type="number" name="numero" id="numero">
+    <input type="buttom" value="Verificar" onclick="verifica()" id="buttom">
+
+    <script>
+        
+        function verifica(){
+            var numero = document.getElementById("numero")
+            //var numeroPensado = Math.round(Math.random()*10);
+            var numeroPensado = [5,3,8]
+            for(var posicao = 0; posicao < numeroPensado.length; posicao++)
+            if(numeroPensado[posicao] == numero.value){
+                document.write("Você ACERTOU!!! Parabéns.")
+                document.body.style.background = "green"
+                document.body.style.textAlign = "center"
+                document.body.style.color = "white"
+                document.body.style.fontSize = "36px"
+                document.body.style.marginTop = "50vh"
+            } /*else{
+                document.write("Você ERROU! Que pena.")
+                document.body.style.background = "red"
+                document.body.style.color = "white"
+                document.body.style.fontSize = "36px"
+                document.body.style.marginTop = "50vh"
+                document.body.style.textAlign = "center"
+            }*/
+        }
+    </script>
+</body>
+</html>

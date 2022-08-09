@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de IMC</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+        }
+        h1 {
+            text-align: center;
+            background-color: rgb(122, 122, 223);
+            padding: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+                <h1>Cálculo do IMC (Índice de massa corpórea)</h1>
+                <br>
+                <br>
+                <br>
+        </section>
+    </main>
+    
+    <script>
+        function pulaLinha(){
+            document.write("<br><br>")
+        }
+        function mostra(frase){
+            document.wirte(frase)
+            pulaLinha()
+        }
+        function calculaImc(altura, peso){
+            return peso / (altura*altura);
+
+        }
+            var nome = prompt("Qual seu nome?");
+            var altura = prompt(nome + ", Qual sua altura?");
+            var peso = prompt(nome + ", Qual seu peso?");
+            
+
+            var imc = calculaImc(altura, peso);
+            document.write(nome + ", seu IMC é, " + Math.round(imc) + ".");
+            pulaLinha();
+            if(imc < 18.5){
+                document.write("Você está com baixo peso!");
+            } else if (imc <= 25){
+                document.write("Você está com peso adequado!")
+            } else if (imc <= 30){
+                document.write("Você está com sobrepeso!")
+            } else{ 
+                document.write("Você está com obesidade!")
+            }
+            pulaLinha();
+            document.write("Se cuide! Saúde em primeiro lugar!")
+    </script>
+
+</body>
+</html>

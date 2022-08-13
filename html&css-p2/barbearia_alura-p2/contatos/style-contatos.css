@@ -1,0 +1,67 @@
+@charset "UTF-8";
+header{
+    background-color: gray;
+    padding: 20px;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+main{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+form input{
+    display: block;
+    padding: 10px;
+    margin: 0 0 20px;
+    width: 50%;
+}
+.txtform{
+    font-size: 20px;
+}
+#submit{
+    background-color: black;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-image: url("../produtos/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+

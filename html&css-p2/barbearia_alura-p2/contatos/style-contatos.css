@@ -36,22 +36,60 @@ main{
 form{
     margin: 40px 0;
 }
-form label{
+form label, form legend{
     display: block;
     font-size: 20px;
-    margin: 0 0 15px;
+    margin: 0 0 20px;
 }
-form input{
+.input-padrao{
     display: block;
     padding: 10px;
     margin: 0 0 20px;
     width: 50%;
 }
-.txtform{
-    font-size: 20px;
+.checkbox{
+    margin: 30px 0;
 }
-#submit{
-    background-color: black;
+fieldset{
+    margin: 0 0 15px;
+}
+select {
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    font-size: 15px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.submit{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: darkorange;
+    font-size: 18px;
+    transition: 1s;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    margin: 30px 0;
+    text-align: center;
+}
+tr, th, td{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+}
+.titletable{
+    background-color: rgba(65, 65, 65, 0.76);
     color: white;
 }
 footer{

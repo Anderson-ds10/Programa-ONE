@@ -11,12 +11,12 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="../produtos/logo.png" alt="imagem.png"></h1>
+            <h1><img src="../produtos/logo.png" alt="Logo da Barbearia Alura"></h1>
             <nav>
                 <ul>
                     <li><a href="../home/index.html">Home</a></li>
                     <li><a href="../produtos/produtos.html">Produtos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="../contatos/contatos.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,36 +24,79 @@
     <main>
         <form>
             <label for="txtnome">Nome e sobrenome</label>
-            <input type="text" placeholder="Digite seu nome e sobrenome" name="txtnome" id="txtnome">
+            <input type="text" placeholder="Digite seu nome e sobrenome" name="txtnome" id="txtnome" class="input-padrao" required>
 
             <label for="email">E-mail</label>
-            <input type="text" placeholder="exemplo@gmail.com" name="email" id="txtemail">
+            <input type="email" placeholder="exemplo@gmail.com" name="email" id="txtemail" class="input-padrao" required>
 
             <label for="telefone">Telefone</label>
-            <input type="text" placeholder="(XX)(XXXXXXXXX)" name="txttelefone" id="telefone">
+            <input type="tel" placeholder="(XX)(XXXXXXXXX)" name="txttelefone" id="telefone" class="input-padrao" required>
 
             <label for="txtmensagem">Mensagem</label>
-            <textarea name="txtmensagem" id="txtmensagem" cols="65" rows="10"></textarea>
+            <textarea name="txtmensagem" id="txtmensagem" cols="65" rows="10" class="input-padrao" required></textarea>
 
-            <div>
-                <p class="txtform">Como prefere nosso contato?</p>
-                <label for="radio-email">E-mail</label>
-                <input type="radio" name="contato" value="email" id="radio-email">
-                <label for="radio-telefone">Telefone</label>
-                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>
+        
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
                 
-                <label for="radio-whatsapp">Whatsapp</label>
-                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
-            </div>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                
+            </fieldset>
 
-            <label>Gostaria de receber nossas novidades por email?<input type="checkbox"></label>
+            <fieldset>
+                <legend>Qual horário você prefere ser atendido</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
 
-            <input type="submit" value="Enviar formulário" id="submit">
-            
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="submit">
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="titletable">Dias</th>
+                    <th class="titletable">Horários</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Segunda-Feira</th>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <th>Terça-Feira</th>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <th>Quarta-Feira</th>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <th>Quinta-Feira</th>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <th>Sexta-Feira</th>
+                    <td> 8h - 20h </td>
+                </tr>
+                <tr>
+                    <th>Sábado</th>
+                    <td> 10h - 16h </td>
+                </tr>
+            </tbody>
+
+        </table>
     </main>
     <footer>
-        <img src="../produtos/logo-branco.png" alt="imagem.png">
+        <img src="../produtos/logo-branco.png" alt="Logo Barbearia Alura">
         <p class="copyright">&copy Copyright Barbearia Alura - 2022</p>
     </footer>
 </body>

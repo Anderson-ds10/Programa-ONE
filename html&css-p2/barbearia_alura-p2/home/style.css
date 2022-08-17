@@ -110,7 +110,6 @@ nav a:hover{
 }
 .imagembeneficios:hover{
     opacity: 1;
-
 }
 .video{
     width: 560px;
@@ -126,4 +125,23 @@ footer{
     color: white;
     font-size: 15px;
     margin-top: 10px;
+}
+@media screen and (max-width: 980px) {
+    .caixa, .beneficios, .mapa, .principal, .video, .legenda_mapa, .conteudo_beneficios{
+        width: auto;
+    }
+    h1{
+        text-align: center;  
+    }
+    nav li{
+        margin: 0px;
+    }
+    nav{
+        position: static;
+    }
+    .lista_beneficios, .imagembeneficios{
+        width: 100%;
+
+    }
+    
 }

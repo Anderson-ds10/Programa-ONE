@@ -102,4 +102,18 @@ footer{
     font-size: 15px;
     margin-top: 10px;
 }
-
+@media screen and (max-width: 480px) {
+    .caixa, .list, .input-padrao, table{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    textarea{
+        width: 300px;
+    }
+    
+}

@@ -77,3 +77,26 @@ footer{
     margin-top: 10px;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .produtos{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    ul{
+        width: auto;
+    }
+    .imgcabelo, .imgbarba, .imgcabeloebarba{ 
+        width: 100px;
+    }
+    .produtos li{
+        display: flex; 
+        width: auto;
+        height: 300px;
+        margin: 20px;
+    }
+}

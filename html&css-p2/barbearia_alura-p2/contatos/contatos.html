@@ -13,7 +13,7 @@
         <div class="caixa">
             <h1><img src="../produtos/logo.png" alt="Logo da Barbearia Alura"></h1>
             <nav>
-                <ul>
+                <ul class="list">
                     <li><a href="../home/index.html">Home</a></li>
                     <li><a href="../produtos/produtos.html">Produtos</a></li>
                     <li><a href="../contatos/contatos.html">Contato</a></li>
@@ -33,15 +33,16 @@
             <input type="tel" placeholder="(XX)(XXXXXXXXX)" name="txttelefone" id="telefone" class="input-padrao" required>
 
             <label for="txtmensagem">Mensagem</label>
-            <textarea name="txtmensagem" id="txtmensagem" cols="65" rows="10" class="input-padrao" required></textarea>
+            <textarea name="txtmensagem" id="txtmensagem" cols="30" rows="10" class="input-padrao" required></textarea>
 
             <fieldset>
-                <legend>Como prefere nosso contato?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>
-        
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-                
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                <div class="contatos">
+                    <legend class="legenda">Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                </div>
                 
             </fieldset>
 

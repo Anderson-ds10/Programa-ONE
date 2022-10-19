@@ -1,6 +1,6 @@
 .destaques{
     background-color: var(--azul-claro);
-
+    align-items: center;
     padding-bottom: 2.5rem;
     padding-top: 2rem;
 }
@@ -35,4 +35,5 @@
 .destaque__botao {
     color: var(--vermelho-forte);
     border-color: var(--vermelho-forte);
+    margin: auto;
 }

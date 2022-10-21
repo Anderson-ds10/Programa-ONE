@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.menu__lista {
+    display: flex;
+}
+.menu__lista-item {
+    list-style: none;
+}
+.menu__lista-item:last-child(.menu__lista-link){
+    margin-right: 0px;
+}
+.menu__lista-link {
+    text-decoration: none;
+    margin-right: 1.25rem;
+    color: rgba(51, 51, 51, 0.705);
+}
+.menu__lista-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

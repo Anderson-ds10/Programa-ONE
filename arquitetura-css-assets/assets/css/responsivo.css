@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px){
+    .receita {
+        width: calc(50% - 8rem); 
+    }
+}
+@media screen and (max-width: 900px){
+    .pessoas {
+        flex-direction: column;
+    }
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .cabecalho {
+        justify-content: center;
+        padding: 0 5rem;
+    }
+    .banner__texto {
+        font-size: 3rem
+    }
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+    .receita {
+        width: calc(100% - 2.5rem);
+        margin-right: 2.5rem;
+    }
+    .receitas {
+        padding: 5 rem 0 0 1rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .logo {
+        display: none;
+    }
+}

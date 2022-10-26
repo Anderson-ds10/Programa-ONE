@@ -17,8 +17,7 @@
     width: 100vw;
     height: calc(100vh - 72px);
     display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('..//img/banner.jpg') no-repeat center / cover ;
 }
 .sobre {
     padding: 2.5rem;

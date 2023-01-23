@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TesteConexao",
+            "request": "launch",
+            "mainClass": "Tratamentoconexao.TesteConexao",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CriaConta",
+            "request": "launch",
+            "mainClass": "CriaConta",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fluxo",
+            "request": "launch",
+            "mainClass": "JavaPilha.Fluxo",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch FluxoComError",
+            "request": "launch",
+            "mainClass": "JavaPilha.FluxoComError",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch FluxoComTratatamento",
+            "request": "launch",
+            "mainClass": "JavaPilha.FluxoComTratatamento",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestaContaComEx",
+            "request": "launch",
+            "mainClass": "JavaPilha.TestaContaComEx",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "bytebankHeranca.Teste",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestaContas",
+            "request": "launch",
+            "mainClass": "bytebankHerancaConta.TestaContas",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteContaEX",
+            "request": "launch",
+            "mainClass": "bytebankHerancaConta.TesteContaEX",
+            "projectName": "javaVSCODE_3d921b77"
+        }
+    ]
+}

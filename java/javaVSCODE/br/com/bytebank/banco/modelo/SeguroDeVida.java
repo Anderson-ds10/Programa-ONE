@@ -1,4 +1,4 @@
-package bytebankHerancaConta;
+package modelo;
 
 public class SeguroDeVida implements Tributavel {
     

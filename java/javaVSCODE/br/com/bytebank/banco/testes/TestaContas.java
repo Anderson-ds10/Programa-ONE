@@ -1,4 +1,7 @@
-package bytebankHerancaConta;
+package testes;
+
+import modelo.*;
+
 public class TestaContas {
     public static void main(String[] args) {
         

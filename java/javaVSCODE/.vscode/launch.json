@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteArrayListEquals",
+            "request": "launch",
+            "mainClass": "JavaUtil.TesteArrayListEquals",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "JavaUtil.Teste",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteContaGuardada",
+            "request": "launch",
+            "mainClass": "testes.TesteContaGuardada",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteArrayReferencia",
+            "request": "launch",
+            "mainClass": "testes.TesteArrayReferencia",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "testes.Teste",
+            "projectName": "javaVSCODE_3d921b77"
+        },
+        {
+            "type": "java",
             "name": "Launch TesteConexao",
             "request": "launch",
             "mainClass": "Tratamentoconexao.TesteConexao",
